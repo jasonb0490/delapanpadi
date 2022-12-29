@@ -1,0 +1,398 @@
+.navbar{
+    min-height: 90px;
+}
+.Logo { 
+    width:195px;
+    height:85px;
+    position:absolute;
+    left:65px;
+    top:0px;
+    background-image:url(https://i.ibb.co/9nw21KF/8-padi-logo-01-ry-Z8l-Mu-Lw-removebg-preview.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center center;
+}
+.nav_txt{
+    color:rgba(0, 0, 0, 1);
+    height:39px;
+    top:20px;
+    font-family:Archivo;
+    font-size:24px;
+    letter-spacing:0;
+}
+.navbar{
+    background-color:rgb(250, 248, 241);
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+body{
+    background-color:rgb(11, 11, 11);
+}
+.jumbotron{
+    height: 900px;
+    background-color:rgb(11, 11, 11);
+}
+.hero{
+    background-image:url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/55fc5a72880481.5bf67a3d640ac.jpg);
+    opacity: 0.9;
+}
+.know{
+    background-image:url(https://i.ibb.co/CnGz1f7/pexels-rachel-claire-4577179-1.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    opacity: 0.8;
+}
+.hero h1{
+    font-family:Bungee;
+    text-align:center;
+    font-size:96px;
+    letter-spacing:2px;
+    font-weight: bold;
+    line-height: 1.2;
+    color:rgb(255, 255, 255);
+    padding-top: 100px;
+}
+.star_head1 { 
+    color:rgb(250, 206, 141);
+    width:420px;
+    height:175px;
+    position:absolute;
+    left:50px;
+    top:100px;
+    font-family:Forum;
+    text-align:center;
+    font-size:48px;
+    letter-spacing:0;
+    font-weight: bold;
+}
+.star_txt1 { 
+    color:rgb(250, 248, 241);
+    width:375px;
+    height:200px;
+    position:absolute;
+    left:85px;
+    top:275px;
+    font-family:Forum;
+    text-align:left;
+    font-size:24px;
+    letter-spacing:0;
+}
+.star_img { 
+    width:500px;
+    height:700px;
+    left: 100px;
+    background-image:url(https://i.ibb.co/vDNMgS4/image-8.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.know_txt { 
+    color:rgba(255, 255, 255, 1);
+    height:176px;
+    padding-top: 15%;
+    padding-left: 37.5%;
+    font-family:Forum;
+    text-align:center;
+    font-size:64px;
+    letter-spacing:0;
+    position: absolute;
+}
+.btn-know{
+    color:rgba(255, 255, 255, 1);
+    background-color:rgb(91, 93, 70);
+    width:220px;
+    height:70px;
+    font-family:Forum;
+    text-align:center;
+    font-size:24px;
+    letter-spacing:0;
+    margin-top: 28%;
+    margin-left: 45%;
+}
+h1 {
+    position: relative;
+    text-transform: uppercase;
+    overflow: hidden;
+    background: linear-gradient(45deg, rgb(170, 100, 100), #fff, rgb(170, 100, 100));
+    background-repeat: no-repeat;
+    background-size: 125%;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(184, 20, 20, 0);
+}
+
+    @keyframes animate {
+    0% {
+        background-position: 0%;
+    }
+    50% {
+        background-position: 180%;
+    }
+    100%{
+        background-position: 0%;
+    }
+}
+.r_form_panjang { 
+    background-color:rgba(253, 253, 253, 0);
+    width:526px;
+    height:55px;
+    position:absolute;
+    left:0px;
+    top:0px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    color: white;
+    font-family:Forum;
+    text-align:left;
+    font-size:20px;
+    padding-left: 15px;
+    border:0.5px solid rgba(255, 255, 255, 1);
+}
+.r_tamu_head { 
+    color:rgba(255, 255, 255, 1);
+    width:153px;
+    height:30px;
+    position:absolute;
+    left:0px;
+    top:0px;
+    font-family:Archivo;
+    text-align:left;
+    font-size:20px;
+    letter-spacing:0;
+}
+.r_tgl1 { 
+    width:280px;
+    height:85px;
+    position:absolute;
+    left:0px;
+    top:403px;
+}
+.r_tgl_wrapper { 
+    width:280px;
+    height:55px;
+    position:absolute;
+    left:0px;
+    top:30px;
+}
+.r_tgl_box { 
+    background-color:rgba(253, 253, 253, 0);
+    width:280px;
+    height:55px;
+    position:absolute;
+    left:0px;
+    top:0px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border:0.5px solid rgba(255, 255, 255, 1);
+    font-family:Forum;
+    text-align:left;
+    font-size:20px;
+    letter-spacing:0;
+    color : white;
+    padding-left: 15px;
+}
+
+.r_tgl_head { 
+    color:rgba(255, 255, 255, 1);
+    width:171.36000061035156px;
+    height:30px;
+    position:absolute;
+    left:0px;
+    top:0px;
+    font-family:Archivo;
+    text-align:left;
+    font-size:20px;
+    letter-spacing:0;
+}
+.r_jam1 { 
+    width:215px;
+    height:85px;
+    position:absolute;
+    left:311px;
+    top:403px;
+}
+.r_jam_wrapper { 
+    width:215px;
+    height:55px;
+    position:absolute;
+    left:0px;
+    top:30px;
+}
+.r_jam_box { 
+    background-color:rgba(253, 253, 253, 0);
+    width:215px;
+    height:55px;
+    position:absolute;
+    left:0px;
+    top:0px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border:0.5px solid rgba(255, 255, 255, 1);
+    font-family:Forum;
+    text-align:left;
+    font-size:20px;
+    letter-spacing:0;
+    color:white;
+    padding-left: 15px;
+}
+
+.r_jam_head { 
+    color:rgba(255, 255, 255, 1);
+    width:131.5800018310547px;
+    height:30px;
+    position:absolute;
+    left:0px;
+    top:0px;
+    font-family:Archivo;
+    text-align:left;
+    font-size:20px;
+    letter-spacing:0;
+}
+.reserve_head { 
+    color:rgb(250, 206, 141);
+    width:409px;
+    height:76px;
+    position:absolute;
+    left:0px;
+    top:0px;
+    font-family:Forum;
+    text-align:left;
+    font-size:64px;
+    letter-spacing:0;
+}
+.r_button1 { 
+    width:640px;
+    height:697.8193359375px;
+    position:absolute;
+    left:90px;
+    top:2px;
+    background-image:url(images/pexels_rachel_claire_4992806_2.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.r_button_wrapper { 
+    width:241px;
+    height:55px;
+    position:absolute;
+    left:999px;
+    top:607px;
+}
+.r_button_box { 
+    background-color:rgb(91, 93, 70);
+    width:241px;
+    height:55px;
+    position:absolute;
+    left:0px;
+    top:0px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    font-family:Forum;
+    text-align:center;
+    font-size:20px;
+    letter-spacing:0;
+    color:rgb(214, 214, 214,1);
+}
+.reserve_txt { 
+    color:rgba(255, 255, 255, 1);
+    width:358px;
+    height:38px;
+    position:absolute;
+    left:0px;
+    top:76px;
+    font-family:Forum;
+    text-align:left;
+    font-size:16px;
+    letter-spacing:0;
+}
+.r_nama1 { 
+    width:526px;
+    height:85px;
+    position:absolute;
+    left:0px;
+    top:151px;
+}
+.r_nama_wrapper { 
+    width:526px;
+    height:55px;
+    position:absolute;
+    left:0px;
+    top:30px;
+}
+.r_nama_head { 
+    color:rgba(255, 255, 255, 1);
+    width:80px;
+    height:30px;
+    position:absolute;
+    left:0px;
+    top:0px;
+    font-family:Archivo;
+    text-align:left;
+    font-size:20px;
+    letter-spacing:0;
+}
+.r_tamu1 { 
+    width:526px;
+    height:85px;
+    position:absolute;
+    left:0px;
+    top:277px;
+}
+.r_tamu_wrapper { 
+    width:526px;
+    height:55px;
+    position:absolute;
+    left:0px;
+    top:30px;
+}
+.btn-reserve{
+    color:rgba(255, 255, 255, 1);
+    background-color:rgb(91, 93, 70);
+    width:240px;
+    height:50px;
+    font-family:Forum;
+    text-align:center;
+    font-size:24px;
+    letter-spacing:0;
+    margin-top: 90%;
+    margin-left: 22%;
+}
+.reserve_bg { 
+	background-image: url(https://i.ibb.co/z6qNV94/pexels-rachel-claire-4992806-2.jpg);
+	width:640px;
+	height:700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 15%;
+}
+.footer-header{
+    color:rgba(255, 255, 255, 1);
+	font-family:Forum;
+	font-size:32px;
+	letter-spacing:0;
+    padding-bottom: 30px;
+}
+.footer-content{
+    color:rgba(255, 255, 255, 1);
+	font-family:Forum;
+	font-size:20px;
+	letter-spacing:0;
+    padding-bottom: 50px;
+}
+.footer-garis{
+    border:1px solid rgba(255, 255, 255, 1);
+    margin-bottom: 50px;
+}
+.footer-copyright{
+    color:rgba(255, 255, 255, 1);
+	font-family:Forum;
+	font-size:12px;
+	letter-spacing:0;
+    padding-bottom: 50px;
+}
