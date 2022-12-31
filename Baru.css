@@ -35,12 +35,28 @@ body{
 .hero{
     background-image:url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/55fc5a72880481.5bf67a3d640ac.jpg);
     opacity: 0.9;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .know{
     background-image:url(https://i.ibb.co/CnGz1f7/pexels-rachel-claire-4577179-1.jpg);
     background-repeat:no-repeat;
     background-size:cover;
     opacity: 0.8;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h2{
+    font-family:Bungee;
+    text-align:left;
+    font-size:78px;
+    letter-spacing:2px;
+    font-weight: bold;
+    line-height: 1.2;
+    color:rgb(229, 229, 229);
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
 }
 .hero h1{
     font-family:Bungee;
@@ -88,13 +104,13 @@ body{
 .know_txt { 
     color:rgba(255, 255, 255, 1);
     height:176px;
-    padding-top: 15%;
-    padding-left: 37.5%;
     font-family:Forum;
     text-align:center;
     font-size:64px;
     letter-spacing:0;
     position: absolute;
+    padding-left: 25px;
+    padding-top: 250px;
 }
 .btn-know{
     color:rgba(255, 255, 255, 1);
@@ -105,8 +121,8 @@ body{
     text-align:center;
     font-size:24px;
     letter-spacing:0;
-    margin-top: 28%;
-    margin-left: 45%;
+    margin-left: 0px;
+    margin-top: 450px;
 }
 h1 {
     position: relative;
@@ -125,7 +141,7 @@ h1 {
         background-position: 0%;
     }
     50% {
-        background-position: 180%;
+        background-position: 155%;
     }
     100%{
         background-position: 0%;
@@ -360,8 +376,9 @@ h1 {
     text-align:center;
     font-size:24px;
     letter-spacing:0;
-    margin-top: 90%;
-    margin-left: 22%;
+    margin-top: 550px;
+    margin-left: 120px;
+    margin-bottom: 100px;
 }
 .reserve_bg { 
 	background-image: url(https://i.ibb.co/z6qNV94/pexels-rachel-claire-4992806-2.jpg);
@@ -370,6 +387,7 @@ h1 {
     background-size: cover;
     background-repeat: no-repeat;
     margin-left: 15%;
+    margin-bottom: 50px;
 }
 .footer-header{
     color:rgba(255, 255, 255, 1);
@@ -395,4 +413,18 @@ h1 {
 	font-size:12px;
 	letter-spacing:0;
     padding-bottom: 50px;
+}
+
+.ebaut p{
+    color: rgb(200, 200, 200);
+    padding-left: 30px;
+    padding-right: 35%;
+}
+.ebaut{
+    background-image:url(https://i.ibb.co/fXDDzH1/output-onlinepngtools.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height:700px;
 }
